@@ -83,7 +83,7 @@ def save_mom_to_file(mom_text, output_file="mom_output.docx"):
 
 def main():
     # Path to the transcript .docx file
-    transcript_file = r"V:\coforge_projects\genAI\test\transcript.docx"
+    transcript_file = r"V:\coforge_projects\genAI\MoM_generator\transcript.docx"
 
     # Read transcript from .docx file
     transcript = read_transcript_from_docx(transcript_file)
